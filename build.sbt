@@ -29,6 +29,8 @@ ThisBuild / javacOptions ++= List(
   "-Xlint:deprecation",
 )
 
+ThisBuild / resolvers += Resolver.ApacheMavenSnapshotsRepo
+
 // Only needed for snapshots
 // See also projects/plugins.sbt
 //ThisBuild / resolvers += Resolver.sonatypeRepo("snapshots")
